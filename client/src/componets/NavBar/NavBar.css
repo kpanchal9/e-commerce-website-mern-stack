@@ -1,0 +1,19 @@
+.cart{
+    margin-left: 0.8rem;
+}
+
+.appLogo{
+    display: flex;
+    align-items: center;
+}
+
+.search{
+    display: flex;
+    justify-content: flex-start;
+}
+
+.container{
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}

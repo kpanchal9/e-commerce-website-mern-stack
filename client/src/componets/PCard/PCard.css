@@ -1,0 +1,31 @@
+.img{
+    background-size: contain;
+}
+
+.pPrice{
+    display: flex;
+    justify-content: flex-start;
+    width: 100%;
+    font-size: 20px;
+    color: red;
+    font-weight: bold;
+}
+
+.description{
+    font-weight: 400;
+    font-size: 14px;
+}
+
+.offer{
+    color: red;
+    font-size: 21px;
+    margin-right: 0.7rem;
+}
+
+.product-container{
+    width: 100%;
+    display: flex;
+    margin-left: 1rem;
+    margin-right: 2rem;
+}
+

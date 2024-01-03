@@ -1,0 +1,22 @@
+.formCs{
+    width: 100%;
+    height: 100%;
+    /* margin-top: 6rem; */
+    display: flex;
+    align-items: center;
+}
+
+.fm{
+    border: 1px solid black;
+    color: white;
+    box-shadow: 0 0 20px black;
+    background:#1f223f;
+    border-radius: 30px;
+    padding: 3rem;
+}
+
+.mainfm{
+    height: 100vh;
+    background-image: url("https://img.freepik.com/premium-vector/background-with-colorful-shopping-bags-vector-illustration-sale-discount-concept_653240-59.jpg");
+    background-size: contain;
+}
