@@ -1,0 +1,46 @@
+<% layout("/layouts/boilerplate") %>
+<body>
+    <div class="row">
+        <div class="col-8 offset-2">
+            <br><br>
+    <h3>Create A new Listing</h3>
+    <form method="POST" action="/admin">
+        <div class="mb-3">
+            <label for="title" class="form-label">Title</label>
+            <input name="product[name]" placeholder="Add a catchy title" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="description" class="form-label">Description</label>
+            <textarea name="product[description]" class="form-control"></textarea>
+        </div>
+        <div class="mb-3">
+            <label for="title" class="form-label">category</label>
+            <input name="product[category]" placeholder="Add a catchy title" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="title" class="form-label">brand</label>
+            <input name="product[brand]" placeholder="Add a catchy title" type="text" class="form-control">
+        </div>
+        <div class="mb-3">
+            <label for="image" class="form-label">Image</label>
+            <input name="product[imageURL]" placeholder="enter image URL/Link" type="text" class="form-control">
+        </div>
+    
+        <div class="mb-3">
+            <label for="price" class="form-label">Price</label>
+            <input name="product[price]" placeholder="1200" type="number" class="form-control">
+        </div>
+
+        <div class="mb-3">
+            <label for="price" class="form-label">quantity</label>
+            <input name="product[quantity]" placeholder="1200" type="number" class="form-control">
+        </div>
+            
+        <br><br>
+        <button class="btn btn-dark add-btn">Add</button>
+        <br><br>
+    </form>
+        </div>
+    </div>
+</body>
+</html>
